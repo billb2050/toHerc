@@ -4,7 +4,7 @@ I store my JCL and programs (wrapped in JCL) locally on Linux. It creates the pr
 
 The command is then **automatically placed in your clipboard** ready to be pasted into the Hercules console.
 
-This program assmues that your virtual tapes (AWSTAPE) are stored in the 'tapes' subdirectory of tk4-. But if you store them elsewhere if you just comment out that line.
+This program assumes that your virtual tapes (AWSTAPE) are stored in the 'tapes' subdirectory of tk4-. But if you store them elsewhere if you just comment out that line.
 
 Obviously using *command completion* can help in entering filenames.
 
