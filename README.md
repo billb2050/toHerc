@@ -8,7 +8,7 @@ This program assumes that your virtual tapes (AWSTAPE) are stored in the 'tapes'
 
 Obviously using *command completion* can help in entering filenames.
 
-The program is meant to be run in the directory where your files are in.
+The program is small and can be placed/run in the directory where your files are in. Or copied where it can run anywhere.../usr/local/bin/toherc on my computer. Make sure permissions set to execute!
 
 The program requires the **pyperclip** cross-platform Python module to copy the command to your clipboard.
 
