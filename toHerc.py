@@ -20,6 +20,11 @@
     By: Bill Blasingim
     On: 10/18/2019
 
+    02/26/2021 Was getting strange errors such as "qt5ct: using qt5ct plugin"
+               For some reason I had to..."sudo apt-get install xclip"
+    03/08/2021 Allow tape files to be anywhere like job files.
+               Don't assume tape files are in Hercules /tapes directory           
+
 """
 import os, string, sys
 import pyperclip
@@ -37,7 +42,7 @@ ext=ext.lower()
  
 dirpath = os.getcwd()+"/"
 if ext==".aws":
-    dirpath = "tapes/"
+    #dirpath = "tapes/"
     cmd="devinit 480 "+dirpath+fil
 else:
     cmd="devinit 00c "+dirpath+fil
