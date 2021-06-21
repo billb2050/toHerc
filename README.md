@@ -1,4 +1,4 @@
-This little command line python program has increased my productivity (YMMV) in developing and submitting MVS JCL and programs  stored locally on Linux rather than in MVS TSO, to the Hercules mainframe emulator, I also use it to submit AWSTAPE files (virtual tapes).
+This little command line python program submits MVS JCL and programs  stored locally on Linux rather than in MVS TSO, to the Hercules mainframe emulator, I also use it to submit AWSTAPE files (virtual tapes).
 
 I store my JCL and programs (wrapped in JCL) locally on Linux. It creates the proper 'devinit' command for hercules. If the extention is '.aws' (virtual tape), it uses 'devinit 480' otherwise it uses 'devinit 00c'. 
 
