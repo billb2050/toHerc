@@ -11,6 +11,3 @@ Obviously using *command completion* can also help in entering filenames.
 The program is small and can be placed/run in the directory where your files are in. Or copied where it can run anywhere.../usr/local/bin/toherc on my computer. Make sure permissions set to execute!
 
 The program requires the **pyperclip** cross-platform Python module to copy the command to your clipboard.
-
-By: Bill Blasingim
-On: 10/18/2019
